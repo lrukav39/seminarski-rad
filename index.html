@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/icons8-chat-48.png" alt="chat icon" width="48px" height="48px"/>
+      <h1 class="heading">Chat App</h1>
+    </header>
+    <main>
+      <div class="members"></div>
+      <div class="messages"></div>
+    </main>
+    <footer>
+      <form class="messageForm" onsubmit="return false;">
+        <input class="messageFormInput" id="input-field" placeholder="Type your message here" maxlength="500" type="text"/>
+        <button class="messageFormButton" id="sendButton" type="submit" value="send">SEND</button>
+      </form>
+    </footer>
+    <script src="https://cdn.scaledrone.com/scaledrone.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
